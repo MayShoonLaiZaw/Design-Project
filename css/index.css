@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    color: #000;
+    font-family: Myriad Pro;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* .container{
+    width: 80%;
+    margin: 0 auto;
+} */
+/* header start */
+.bg-img {
+    background-image: url(../images/phototime.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-para{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 342px;
+    color: #fff;
+    padding-bottom: 223px;
+}
+.header-para h1{
+    text-align: center;
+    margin-bottom: 59px;
+    font-weight: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.header-para p{
+    width: 100%;
+    max-width: 1023px;
+    font-size: 23.25px;
+    margin: 0 auto;
+}
+/* header end */
+/* second-parts start */
+.second-parts{
+    max-width: 1074px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 147px;
+}
+.phone-photo {
+    width: 50%;
+}
+.phone-photo .phone-img{
+    width: 100%;
+    max-width: 315px;
+    line-height: 0;
+}
+.phone-photo .phone-img img{
+    width: 100%;
+}
+.second-parts .second-para{
+    width: 40%;
+}
+.second-parts .second-para h2{
+    font-size: 18px;
+    color: #16a085;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+.second-parts .second-para p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.second-button{
+    padding-top:42px;
+}
+.second-para .second-button button{
+    width: 192px;
+    height: 52px;
+    background-color: #16a085;
+    color: #fff;
+    border:none;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+/* second-parts end */
+/* gallery start */
+.bg-color {
+    width: 100%;
+    padding: 119px 20px 123px;
+    background-color: #f5f6f7;
+}
+.gallery{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1163px;
+}
+.photo-1,.photo-2,.photo-3{
+    width: 32%;
+}
+.photo-1 .img-1,.photo-2 .img-2,.photo-3 .img-3 {
+    width: 100%;
+    max-width: 372px;
+    line-height: 0;
+}
+.photo-1 .img-1 img,.photo-2 .img-2 img,.photo-3 .img-3 img{
+    width: 100%;
+}
+/* gallery end */
+/* subscribe start */
+.bg-image{
+    background-image: url(../images/phototime2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 353px 0 324px;
+    color: #fff;
+    text-align: center;
+}
+.subscribe h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 35px;
+}
+.subscribe input {
+    background-color: #fff;
+    border:1px solid #000;
+    width: 302px;
+    height: 59px;
+    border-radius: 10px;
+    padding-left: 17px;
+    font-size: 24px;
+}
+.subscribe input::placeholder{
+    color: #383838;
+}
+/* subscribe end */
+/* download start */
+.download{
+    padding: 93px 0 91px;
+    text-align: center;
+    background-color: #f5f6f7;
+}
+.download h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+.download p{
+    width: 60%;
+    max-width: 800px;
+    margin:0 auto;
+    line-height: 18px;
+    font-size: 12px;
+}
+/* download end */
+/* summary start */
+.summary{
+    width: 100%;
+    padding: 26px 0 27px; 
+    text-align: center;
+}
+.summary p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/* summary end */
+
+/* responsive start */
+@media (min-width:320px) and (max-width:767px) {
+    .flex-container{
+        display: block;
+    }
+    /* header-para start  */
+    .header-para {
+        margin:0;
+        width: 90%;
+        padding-top: 200px;
+        padding-bottom: 77px;
+        padding-left: 16px;
+    }
+    .header-para h1 {
+        text-align: left;
+        margin-bottom: 32px;
+        font-weight: normal;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    .header-para p {
+        font-size: 18px;
+    }
+    /* header-para end */
+    /* second-parts start */
+    .second-parts {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 43px;
+    }
+    .phone-photo {
+        width: 100%;
+    }
+    .phone-photo .phone-img {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 442px;
+        line-height: 0;
+        padding: 0 20px;
+    }
+    .second-parts .second-para {
+        width: 90%;
+        padding-left: 16px;
+        padding-top: 33px;
+        padding-bottom: 61px;
+    }
+    .second-parts .second-para h2 {
+        font-size: 29.87px;
+        padding-bottom: 37px;
+    }
+    .second-parts .second-para p {
+        font-size: 19.92px;
+    }
+    .second-button {
+        padding-top: 37px;
+    }
+    .second-para .second-button button {
+        font-size: 19.92px;
+        width: 320px;
+        height: 86px;
+    }
+    /* second-parts end */
+    /* gallery start */
+    .bg-color {
+        width: 100%;
+        padding: 0;
+        background-color: #fff;
+    }
+    .photo-1, .photo-2, .photo-3 {
+        width: 100%;
+        padding: 0 16px;
+        padding-bottom: 30px;
+    }
+    .photo-1 .img-1, .photo-2 .img-2, .photo-3 .img-3 {
+        width: 100%;
+        max-width: 715px;
+        line-height: 0;
+    }
+    /* gallery end */
+    /* subscribe start */
+    .bg-image {
+        margin: 0 16px 60px;
+    }
+    .subscribe {
+        padding: 165px 0 163px;
+    }
+    .subscribe h2 {
+        font-size: 24px;
+        letter-spacing: 0px;
+    }
+    /* subscribe end */
+    /* download start */
+    .download {
+        padding: 86px 0 85px;
+    }
+    .download h2 {
+        font-size: 36px;
+        padding-bottom: 25px;
+    }
+    .download p {
+        width: 100%;
+        padding: 0 16px;
+        font-size: 16px;
+    }
+    /* download end */
+    /* summary start */
+    .summary {
+        padding: 20px 0 21px;
+    }
+    .summary p {
+        font-size: 14px;
+    }
+    /* summary end */
+}
+@media  (min-width: 320px) and (max-width:570px) {
+    .header-para h1 {
+        font-size: 30px;
+    }
+    .second-parts .second-para h2 {
+        font-size: 25px;
+        padding-bottom: 37px;
+    }
+    .second-para .second-button button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .subscribe h2 {
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+    .subscribe input {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        padding-left: 17px;
+        font-size: 18px;
+    }
+    .download h2 {
+        font-size: 26px;
+        padding-bottom: 25px;
+    }
+}
+/* responsive end */
